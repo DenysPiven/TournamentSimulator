@@ -1,0 +1,29 @@
+[
+  { "id": 1,  "round": 1, "p1_id": 1,  "p2_id": 7,  "winner": 1 },
+  { "id": 2,  "round": 1, "p1_id": 2,  "p2_id": 8,  "winner": 2 },
+  { "id": 3,  "round": 1, "p1_id": 3,  "p2_id": 9,  "winner": 3 },
+  { "id": 4,  "round": 1, "p1_id": 4,  "p2_id": 10, "winner": 10 },
+  { "id": 5,  "round": 1, "p1_id": 5,  "p2_id": 11, "winner": 11 },
+  { "id": 6,  "round": 1, "p1_id": 6,  "p2_id": 12, "winner": 6 },
+
+  { "id": 7,  "round": 2, "p1_id": 1,  "p2_id": 6,  "winner": 1 },
+  { "id": 8,  "round": 2, "p1_id": 2,  "p2_id": 10, "winner": 10 },
+  { "id": 9,  "round": 2, "p1_id": 3,  "p2_id": 11, "winner": 3 },
+  { "id": 10, "round": 2, "p1_id": 4,  "p2_id": 8,  "winner": 8 },
+  { "id": 11, "round": 2, "p1_id": 5,  "p2_id": 9,  "winner": 5 },
+  { "id": 12, "round": 2, "p1_id": 7,  "p2_id": 12, "winner": 7 },
+
+  { "id": 13, "round": 3, "p1_id": 1,  "p2_id": 3,  "winner": 3 },
+  { "id": 14, "round": 3, "p1_id": 12, "p2_id": 9,  "winner": 12 },
+  { "id": 15, "round": 3, "p1_id": 10, "p2_id": 11, "winner": 11 },
+  { "id": 16, "round": 3, "p1_id": 4,  "p2_id": 7,  "winner": 7 },
+  { "id": 17, "round": 3, "p1_id": 2,  "p2_id": 6,  "winner": 2 },
+  { "id": 18, "round": 3, "p1_id": 5,  "p2_id": 8,  "winner": 5 },
+
+  { "id": 19, "round": 4, "p1_id": 9,  "p2_id": 4,  "winner": 4 },
+  { "id": 20, "round": 4, "p1_id": 12, "p2_id": 8,  "winner": 12 },
+  { "id": 21, "round": 4, "p1_id": 3,  "p2_id": 10, "winner": 3 },
+  { "id": 22, "round": 4, "p1_id": 6,  "p2_id": 7,  "winner": 6 },
+  { "id": 23, "round": 4, "p1_id": 11, "p2_id": 2,  "winner": 11 },
+  { "id": 24, "round": 4, "p1_id": 1,  "p2_id": 5,  "winner": 5 }
+]

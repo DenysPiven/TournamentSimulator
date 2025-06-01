@@ -1,0 +1,33 @@
+[
+    { "id": 1, "bracket": "WB", "round": 1, "p1_id": 8, "p2_id": 9},
+    { "id": 2, "bracket": "WB", "round": 1, "p1_id": 5, "p2_id": 12},
+    { "id": 3, "bracket": "WB", "round": 1, "p1_id": 7, "p2_id": 10},
+    { "id": 4, "bracket": "WB", "round": 1, "p1_id": 6, "p2_id": 11},
+
+    { "id": 5, "bracket": "WB", "round": 2, "p1_id": 1, "p2_from": { "match": 1, "type": "winner" }},
+    { "id": 6, "bracket": "WB", "round": 2, "p1_id": 4, "p2_from": { "match": 2, "type": "winner" }},
+    { "id": 7, "bracket": "WB", "round": 2, "p1_id": 2, "p2_from": { "match": 3, "type": "winner" }},
+    { "id": 8, "bracket": "WB", "round": 2, "p1_id": 3, "p2_from": { "match": 4, "type": "winner" }},
+
+    { "id": 9, "bracket": "LB", "round": 1, "p1_from": { "match": 4, "type": "loser" }, "p2_from": { "match": 5, "type": "loser" }},
+    { "id": 10, "bracket": "LB", "round": 1, "p1_from": { "match": 3, "type": "loser" }, "p2_from": { "match": 6, "type": "loser" }},
+    { "id": 11, "bracket": "LB", "round": 1, "p1_from": { "match": 2, "type": "loser" }, "p2_from": { "match": 7, "type": "loser" }},
+    { "id": 12, "bracket": "LB", "round": 1, "p1_from": { "match": 1, "type": "loser" }, "p2_from": { "match": 8, "type": "loser" }},
+
+    { "id": 13, "bracket": "LB", "round": 2, "p1_from": { "match": 9, "type": "winner" }, "p2_from": { "match": 10, "type": "winner" }},
+    { "id": 14, "bracket": "LB", "round": 2, "p1_from": { "match": 11, "type": "winner" }, "p2_from": { "match": 12, "type": "winner" }},
+
+    { "id": 15, "bracket": "WB", "round": 3, "p1_from": { "match": 5, "type": "winner" }, "p2_from": { "match": 6, "type": "winner" }},
+    { "id": 16, "bracket": "WB", "round": 3, "p1_from": { "match": 7, "type": "winner" }, "p2_from": { "match": 8, "type": "winner" }},
+
+    { "id": 17, "bracket": "LB", "round": 3, "p1_from": { "match": 14, "type": "winner" }, "p2_from": { "match": 15, "type": "loser" }},
+    { "id": 18, "bracket": "LB", "round": 3, "p1_from": { "match": 13, "type": "winner" }, "p2_from": { "match": 16, "type": "loser" }},
+
+    { "id": 19, "bracket": "LB", "round": 4, "p1_from": { "match": 17, "type": "winner" }, "p2_from": { "match": 18, "type": "winner" }},
+
+    { "id": 20, "bracket": "WB", "round": 4, "p1_from": { "match": 15, "type": "winner" }, "p2_from": { "match": 16, "type": "winner" }},
+
+    { "id": 21, "bracket": "LB", "round": 5, "p1_from": { "match": 19, "type": "winner" }, "p2_from": { "match": 20, "type": "loser" }},
+
+    { "id": 22, "bracket": "WB", "round": 5, "p1_from": { "match": 20, "type": "winner" }, "p2_from": { "match": 21, "type": "winner" }}
+]
