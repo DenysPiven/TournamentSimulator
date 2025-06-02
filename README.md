@@ -1,6 +1,6 @@
 # 🏆 Tournament Simulator
 
-Visual simulation of Swiss System and Double Elimination tournaments using **Python** and **Pygame**.
+Visual simulation of **Swiss System**, **Double Elimination**, and **Single Elimination** tournaments using **Python** and **Pygame**.
 
 ---
 
@@ -16,6 +16,10 @@ TournamentSimulator/
 │   ├── swiss.py                         # Swiss System simulation script
 │   └── swiss_matches.json               # Matches by round (pre-paired)
 │
+├── single_elimination/
+│   ├── single_elimination.py            # Single Elimination simulation script
+│   └── single_elimination_matches.json  # Match structure for SE bracket
+│
 ├── players.json                         # List of players and their speeds
 ├── LICENSE
 ├── README.md
@@ -27,9 +31,10 @@ TournamentSimulator/
 ### 🧪 Features
 
 * 🖼️ Real-time bracket rendering
-* 🔄 Automatic match progression with proper round order
-* ⏱️ 15-minute simulated break between Swiss rounds
-* 🏁 Ranking output printed at tournament end
+* 🔄 Automatic match progression with round scheduling
+* ⏱️ Simulated time acceleration (1 sec = 1 min)
+* 📆 Round-by-round visual flow
+* 🏁 Rankings printed at tournament end
 * 💡 Fully customizable match/winner setup via JSON
 
 ---
@@ -53,6 +58,9 @@ python swiss/swiss.py
 
 # Double Elimination
 python double_elimination/double_elimination.py
+
+# Single Elimination
+python single_elimination/single_elimination.py
 ```
 
 ---
@@ -70,7 +78,7 @@ python double_elimination/double_elimination.py
 
 #### `*_matches.json`
 
-Each match has:
+Each match supports:
 
 ```json
 {
@@ -78,7 +86,9 @@ Each match has:
   "round": 1,
   "p1_id": 1,
   "p2_id": 2,
-  "winner": 1     // optional; used for pre-seeded results
+  "winner": 1,         // optional; predefined outcome
+  "p1_from": {...},    // for later rounds (by winner/loser)
+  "p2_from": {...}
 }
 ```
 
@@ -90,6 +100,12 @@ Each match has:
 * Console shows real-time match logs
 * Final rankings printed at the bottom
 * Real duration calculated using `time.time()`
+
+#### ⌛ Sample Simulated Durations
+
+* ⭐ Single Elimination: **2 hours 16 minutes**
+* ⭐ Swiss System: **3 hours 30 minutes**
+* ⭐ Double Elimination: **4 hours 13 minutes**
 
 ---
 

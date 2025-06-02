@@ -14,7 +14,7 @@ SPACING_Y = 80
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Double Elimination Simulator")
+pygame.display.set_caption("Single Elimination Simulator")
 font = pygame.font.SysFont("Arial", 16)
 clock = pygame.time.Clock()
 
@@ -25,7 +25,7 @@ players = {p['id']: p for p in player_list}
 player_names = {p['id']: p['name'] for p in player_list}
 
 # Load matches
-with open("double_elimination_matches.json", "r") as f:
+with open("single_elimination_matches.json", "r") as f:
     matches = json.load(f)
 
 # Initialize match state
@@ -47,7 +47,7 @@ match_coords = {}
 
 def get_match_pos(match):
     hardcoded_positions = {
-        # WB matches (id: (x, y))
+        # Matches (id: (x, y))
         1: (100, 100),
         2: (100, 200),
         3: (100, 300),
@@ -56,22 +56,9 @@ def get_match_pos(match):
         6: (340, 150),
         7: (340, 250),
         8: (340, 350),
-        15: (580, 100),
-        16: (580, 300),
-        20: (820, 200),
-        22: (1060, 250),
-
-        # LB matches
-        9: (100, 900),
-        10: (100, 800),
-        11: (100, 700),
-        12: (100, 600),
-        13: (340, 850),
-        14: (340, 650),
-        17: (580, 600),
-        18: (580, 800),
-        19: (820, 700),
-        21: (1060, 650),
+        9: (580, 100),
+        10: (580, 300),
+        11: (820, 200),
     }
 
     return hardcoded_positions.get(match['id'], (0, 0))
@@ -101,7 +88,7 @@ def draw_match(match):
     pygame.draw.rect(screen, (0, 255, 0) if match['status'] == 'done' else (0, 120, 255),
                      (x, y, MATCH_WIDTH, MATCH_HEIGHT), 2)
 
-    title = f"{match['bracket']} R{match['round']}"
+    title = f"R{match['round']}"
     screen.blit(font.render(title, True, (255, 255, 0)), (x, y - 18))
 
     if match['p1'] is not None:
@@ -191,7 +178,7 @@ def run_sim():
         if not tournament_done and all(m['status'] == 'done' for m in matches):
             print("\n--- FINAL RANKING ---")
 
-            ranking_order = [22, 22, 21, 19, 17, 18, 14, 13, 12, 11, 10, 9]
+            ranking_order = list(range(11, 0, -1))
             used = set()
 
             for i, match_id in enumerate(ranking_order):

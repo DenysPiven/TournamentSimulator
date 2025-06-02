@@ -140,7 +140,7 @@ def run_sim():
             print("\n--- TOURNAMENT COMPLETE ---")
             end_time = time.time()
             elapsed = end_time - start_time
-            print(f"Total duration: ({int(elapsed // 60)} hours, {int(elapsed / 60)} minutes)")
+            print(f"Total duration: ({int(elapsed // 60)} hours, {int(elapsed % 60)} minutes)")
 
             tournament_done = True
 

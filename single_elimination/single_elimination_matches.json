@@ -1,0 +1,16 @@
+[
+    { "id": 1, "round": 1, "p1_id": 8, "p2_id": 9},
+    { "id": 2, "round": 1, "p1_id": 5, "p2_id": 12},
+    { "id": 3, "round": 1, "p1_id": 7, "p2_id": 10},
+    { "id": 4, "round": 1, "p1_id": 6, "p2_id": 11},
+
+    { "id": 5, "round": 2, "p1_id": 1, "p2_from": { "match": 1, "type": "winner" }},
+    { "id": 6, "round": 2, "p1_id": 4, "p2_from": { "match": 2, "type": "winner" }},
+    { "id": 7, "round": 2, "p1_id": 2, "p2_from": { "match": 3, "type": "winner" }},
+    { "id": 8, "round": 2, "p1_id": 3, "p2_from": { "match": 4, "type": "winner" }},
+
+    { "id": 9, "round": 3, "p1_from": { "match": 5, "type": "winner" }, "p2_from": { "match": 6, "type": "winner" }},
+    { "id": 10, "round": 3, "p1_from": { "match": 7, "type": "winner" }, "p2_from": { "match": 8, "type": "winner" }},
+
+    { "id": 11, "round": 4, "p1_from": { "match": 9, "type": "loser" }, "p2_from": { "match": 10, "type": "loser" }}
+]
