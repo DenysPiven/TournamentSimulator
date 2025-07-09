@@ -1,65 +1,65 @@
 Tournament Winner Rankings:
-1. Medusa - 4.79% wins
-2. Sherlock Holmes - 4.43% wins
-3. Elektra - 3.62% wins
-4. Sun Wukong - 3.58% wins
-5. T. Rex - 3.51% wins
-6. Houdini - 3.50% wins
-7. Golden Bat - 3.21% wins
-8. Luke Cage - 3.14% wins
-9. Bigfoot - 2.60% wins
-10. Doctor Strange - 2.56% wins
-11. Achilles - 2.49% wins
-12. Nikola Tesla - 2.27% wins
-13. Raptors - 2.25% wins
-14. Dr. Jill Trent - 2.21% wins
-15. She-Hulk - 2.09% wins
-16. Eredin - 2.04% wins
-17. Triss - 1.88% wins
-18. Ciri - 1.73% wins
-19. Squirrel Girl - 1.72% wins
-20. Chupacabra - 1.71% wins
-21. Blackbeard - 1.57% wins
-22. Buffy Xander - 1.56% wins
-23. Pandora - 1.56% wins
-24. Little Red Riding Hood - 1.55% wins
-25. Sinbad - 1.50% wins
-26. Loki - 1.47% wins
-27. Oda Nobunaga - 1.41% wins
-28. Tomoe Gozen - 1.41% wins
-29. Dracula - 1.41% wins
-30. Annie Christmas - 1.37% wins
-31. Yennefer - 1.36% wins
-32. Cloak & Dagger - 1.35% wins
-33. Geralt of Rivia - 1.32% wins
-34. Ancient Leshen - 1.30% wins
-35. Spike - 1.29% wins
-36. Moon Knight - 1.28% wins
-37. Deadpool - 1.23% wins
-38. Bruce Lee - 1.20% wins
-39. Angel - 1.20% wins
-40. InGen - 1.16% wins
-41. The Wayward Sisters - 1.09% wins
-42. Buffy Giles - 1.05% wins
-43. Alice - 1.05% wins
-44. Titania - 1.01% wins
-45. Willow - 0.93% wins
-46. Dr. Sattler - 0.89% wins
-47. Black Panther - 0.87% wins
-48. Shakespeare - 0.84% wins
-49. Spider-Man - 0.79% wins
-50. Daredevil - 0.76% wins
-51. Jekyll & Hyde - 0.72% wins
-52. The Genie - 0.71% wins
-53. Ms. Marvel - 0.65% wins
-54. Beowulf - 0.64% wins
-55. Black Widow - 0.62% wins
-56. Winter Soldier - 0.60% wins
-57. Ghost Rider - 0.59% wins
-58. Bloody Mary - 0.58% wins
-59. Philippa - 0.55% wins
-60. Hamlet - 0.53% wins
-61. Robin Hood - 0.51% wins
-62. Bullseye - 0.45% wins
-63. Invisible Man - 0.45% wins
-64. King Arthur - 0.31% wins
+1. Medusa - 4.62% wins
+2. Sherlock Holmes - 4.40% wins
+3. Elektra - 3.65% wins
+4. Sun Wukong - 3.59% wins
+5. Golden Bat - 3.37% wins
+6. T. Rex - 3.34% wins
+7. Houdini - 3.25% wins
+8. Luke Cage - 3.23% wins
+9. Bigfoot - 2.72% wins
+10. Yennenga - 2.55% wins
+11. Dr. Jill Trent - 2.46% wins
+12. Achilles - 2.46% wins
+13. Doctor Strange - 2.46% wins
+14. Nikola Tesla - 2.32% wins
+15. She-Hulk - 2.07% wins
+16. Raptors - 2.06% wins
+17. Eredin - 2.02% wins
+18. Triss - 1.89% wins
+19. Ciri - 1.79% wins
+20. Chupacabra - 1.73% wins
+21. Squirrel Girl - 1.60% wins
+22. Sinbad - 1.58% wins
+23. Little Red Riding Hood - 1.57% wins
+24. Pandora - 1.52% wins
+25. Blackbeard - 1.51% wins
+26. Cloak & Dagger - 1.50% wins
+27. Buffy Xander - 1.49% wins
+28. Loki - 1.43% wins
+29. Oda Nobunaga - 1.36% wins
+30. Tomoe Gozen - 1.36% wins
+31. Moon Knight - 1.27% wins
+32. Annie Christmas - 1.27% wins
+33. Bruce Lee - 1.27% wins
+34. Spike - 1.26% wins
+35. Dracula - 1.26% wins
+36. Geralt of Rivia - 1.23% wins
+37. Ancient Leshen - 1.22% wins
+38. Deadpool - 1.17% wins
+39. Angel - 1.14% wins
+40. InGen - 1.06% wins
+41. Buffy Giles - 1.05% wins
+42. Black Panther - 1.01% wins
+43. Alice - 1.00% wins
+44. Willow - 0.99% wins
+45. The Wayward Sisters - 0.96% wins
+46. Titania - 0.92% wins
+47. Dr. Sattler - 0.90% wins
+48. Shakespeare - 0.90% wins
+49. Spider-Man - 0.81% wins
+50. Daredevil - 0.80% wins
+51. Jekyll & Hyde - 0.70% wins
+52. The Genie - 0.69% wins
+53. Black Widow - 0.63% wins
+54. Ms. Marvel - 0.61% wins
+55. Bloody Mary - 0.59% wins
+56. Winter Soldier - 0.58% wins
+57. Ghost Rider - 0.58% wins
+58. Beowulf - 0.56% wins
+59. Hamlet - 0.56% wins
+60. Philippa - 0.52% wins
+61. Bullseye - 0.48% wins
+62. Robin Hood - 0.44% wins
+63. Invisible Man - 0.36% wins
+64. King Arthur - 0.28% wins

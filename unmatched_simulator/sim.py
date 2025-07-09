@@ -131,7 +131,7 @@ def run_simulations(num_simulations=10000):
 # === Run ===
 if __name__ == "__main__":
     rankings, num_simulations = run_simulations(100000)
-    print("Tournament Winner Rankings:")
+    print("Tournament Winner Rankings (simulation):")
     for rank, (name, wins) in enumerate(rankings, start=1):
         percent = wins / num_simulations * 100
         print(f"{rank}. {name} - {percent:.2f}% wins")

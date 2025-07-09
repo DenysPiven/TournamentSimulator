@@ -5,17 +5,21 @@ import random
 import os
 import sys
 
+
 # === Tee class for logging ===
 class Tee:
     def __init__(self, *files):
         self.files = files
+
     def write(self, data):
         for f in self.files:
             f.write(data)
             f.flush()
+
     def flush(self):
         for f in self.files:
             f.flush()
+
 
 # === Logging setup ===
 os.makedirs("log/main", exist_ok=True)
@@ -43,6 +47,7 @@ matches_df = pd.read_csv("assets/matches_count.csv", index_col=0)
 probs_df = pd.read_csv("assets/probabilities.csv", index_col=0)
 id2name = {p['id']: p['name'] for p in players}
 
+
 # === Probability ===
 def get_match_probability(p1, p2):
     name1 = id2name[p1]
@@ -53,15 +58,17 @@ def get_match_probability(p1, p2):
     prob = probs_df.loc[name1, name2]
     return 50 if prob == -2 else 100 - prob
 
+
 # === Pairing ===
 def generate_pairs(player_list):
     pairs, next_round = [], []
     for i in range(0, len(player_list), 2):
         if i + 1 < len(player_list):
-            pairs.append((player_list[i], player_list[i+1]))
+            pairs.append((player_list[i], player_list[i + 1]))
         else:
             next_round.append(player_list[i])
     return pairs, next_round
+
 
 # === Round simulation ===
 def simulate_round(current_players, round_num, start_match_id, logs):
@@ -85,6 +92,7 @@ def simulate_round(current_players, round_num, start_match_id, logs):
         })
         start_match_id += 1
     return round_matches, next_round, start_match_id
+
 
 # === Full tournament ===
 def run_tournament():
@@ -110,6 +118,7 @@ def run_tournament():
             )
     return all_matches, match_coords, rounds, logs
 
+
 # === Match drawing ===
 def draw_match(m, offset_x, offset_y):
     x, y = match_coords[m['id']]
@@ -128,6 +137,7 @@ def draw_match(m, offset_x, offset_y):
 
     screen.blit(font.render(p1name, True, color_p1), (x + 5, y + 5))
     screen.blit(font.render(p2name, True, color_p2), (x + 5, y + 30))
+
 
 # === Main execution ===
 all_matches, match_coords, rounds, logs = run_tournament()
