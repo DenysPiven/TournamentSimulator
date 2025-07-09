@@ -1,0 +1,63 @@
+Round 1: The Genie vs She-Hulk, Prob: 20.0%, Matches: 5, Winner: She-Hulk
+Round 1: Chupacabra vs Beowulf, Prob: 50.0%, Matches: 0, Winner: Chupacabra
+Round 1: Luke Cage vs Sinbad, Prob: 70.0%, Matches: 40, Winner: Sinbad
+Round 1: Annie Christmas vs Ghost Rider, Prob: 61.0%, Matches: 18, Winner: Annie Christmas
+Round 1: Buffy Xander vs Philippa, Prob: 50.0%, Matches: 1, Winner: Buffy Xander
+Round 1: Yennefer vs Robin Hood, Prob: 50.0%, Matches: 4, Winner: Yennefer
+Round 1: Geralt of Rivia vs Sherlock Holmes, Prob: 50.0%, Matches: 1, Winner: Sherlock Holmes
+Round 1: Black Panther vs King Arthur, Prob: 50.0%, Matches: 1, Winner: King Arthur
+Round 1: Eredin vs Buffy Giles, Prob: 50.0%, Matches: 0, Winner: Buffy Giles
+Round 1: Elektra vs Nikola Tesla, Prob: 50.0%, Matches: 3, Winner: Elektra
+Round 1: Angel vs Sun Wukong, Prob: 50.0%, Matches: 0, Winner: Sun Wukong
+Round 1: Spike vs Blackbeard, Prob: 50.0%, Matches: 0, Winner: Spike
+Round 1: Alice vs Bloody Mary, Prob: 69.0%, Matches: 16, Winner: Alice
+Round 1: Triss vs Dr. Sattler, Prob: 50.0%, Matches: 0, Winner: Triss
+Round 1: The Wayward Sisters vs Pandora, Prob: 50.0%, Matches: 0, Winner: The Wayward Sisters
+Round 1: Tomoe Gozen vs Winter Soldier, Prob: 77.0%, Matches: 62, Winner: Tomoe Gozen
+Round 1: Ciri vs Hamlet, Prob: 50.0%, Matches: 1, Winner: Hamlet
+Round 1: Bullseye vs Achilles, Prob: 48.0%, Matches: 56, Winner: Bullseye
+Round 1: InGen vs Squirrel Girl, Prob: 50.0%, Matches: 1, Winner: InGen
+Round 1: Daredevil vs Black Widow, Prob: 33.0%, Matches: 57, Winner: Black Widow
+Round 1: Willow vs Loki, Prob: 50.0%, Matches: 0, Winner: Loki
+Round 1: Moon Knight vs Little Red Riding Hood, Prob: 61.0%, Matches: 66, Winner: Moon Knight
+Round 1: Medusa vs Shakespeare, Prob: 50.0%, Matches: 2, Winner: Medusa
+Round 1: Ms. Marvel vs Houdini, Prob: 50.0%, Matches: 3, Winner: Houdini
+Round 1: Spider-Man vs Dr. Jill Trent, Prob: 50.0%, Matches: 1, Winner: Spider-Man
+Round 1: Bigfoot vs Dracula, Prob: 47.0%, Matches: 104, Winner: Dracula
+Round 1: T. Rex vs Golden Bat, Prob: 56.0%, Matches: 34, Winner: T. Rex
+Round 1: Raptors vs Titania, Prob: 67.0%, Matches: 70, Winner: Raptors
+Round 1: Bruce Lee vs Ancient Leshen, Prob: 50.0%, Matches: 3, Winner: Ancient Leshen
+Round 1: Jekyll & Hyde vs Deadpool, Prob: 33.0%, Matches: 24, Winner: Jekyll & Hyde
+Round 1: Invisible Man vs Oda Nobunaga, Prob: 55.0%, Matches: 11, Winner: Invisible Man
+Round 1: Cloak & Dagger vs Doctor Strange, Prob: 50.0%, Matches: 1, Winner: Cloak & Dagger
+Round 2: She-Hulk vs Chupacabra, Prob: 50.0%, Matches: 1, Winner: Chupacabra
+Round 2: Sinbad vs Annie Christmas, Prob: 49.0%, Matches: 43, Winner: Sinbad
+Round 2: Buffy Xander vs Yennefer, Prob: 50.0%, Matches: 0, Winner: Yennefer
+Round 2: Sherlock Holmes vs King Arthur, Prob: 100.0%, Matches: 6, Winner: Sherlock Holmes
+Round 2: Buffy Giles vs Elektra, Prob: 50.0%, Matches: 4, Winner: Elektra
+Round 2: Sun Wukong vs Spike, Prob: 50.0%, Matches: 2, Winner: Sun Wukong
+Round 2: Alice vs Triss, Prob: 50.0%, Matches: 0, Winner: Alice
+Round 2: The Wayward Sisters vs Tomoe Gozen, Prob: 51.0%, Matches: 39, Winner: The Wayward Sisters
+Round 2: Hamlet vs Bullseye, Prob: 67.0%, Matches: 6, Winner: Hamlet
+Round 2: InGen vs Black Widow, Prob: 61.0%, Matches: 36, Winner: InGen
+Round 2: Loki vs Moon Knight, Prob: 50.0%, Matches: 0, Winner: Loki
+Round 2: Medusa vs Houdini, Prob: 76.0%, Matches: 135, Winner: Medusa
+Round 2: Spider-Man vs Dracula, Prob: 30.0%, Matches: 10, Winner: Dracula
+Round 2: T. Rex vs Raptors, Prob: 79.0%, Matches: 24, Winner: T. Rex
+Round 2: Ancient Leshen vs Jekyll & Hyde, Prob: 50.0%, Matches: 0, Winner: Jekyll & Hyde
+Round 2: Invisible Man vs Cloak & Dagger, Prob: 67.0%, Matches: 15, Winner: Invisible Man
+Round 3: Chupacabra vs Sinbad, Prob: 50.0%, Matches: 1, Winner: Sinbad
+Round 3: Yennefer vs Sherlock Holmes, Prob: 50.0%, Matches: 14, Winner: Yennefer
+Round 3: Elektra vs Sun Wukong, Prob: 86.0%, Matches: 22, Winner: Elektra
+Round 3: Alice vs The Wayward Sisters, Prob: 67.0%, Matches: 6, Winner: Alice
+Round 3: Hamlet vs InGen, Prob: 50.0%, Matches: 0, Winner: InGen
+Round 3: Loki vs Medusa, Prob: 50.0%, Matches: 0, Winner: Medusa
+Round 3: Dracula vs T. Rex, Prob: 21.0%, Matches: 19, Winner: Dracula
+Round 3: Jekyll & Hyde vs Invisible Man, Prob: 44.0%, Matches: 64, Winner: Invisible Man
+Round 4: Sinbad vs Yennefer, Prob: 90.0%, Matches: 20, Winner: Sinbad
+Round 4: Elektra vs Alice, Prob: 50.0%, Matches: 3, Winner: Elektra
+Round 4: InGen vs Medusa, Prob: 17.0%, Matches: 23, Winner: Medusa
+Round 4: Dracula vs Invisible Man, Prob: 59.0%, Matches: 58, Winner: Dracula
+Round 5: Sinbad vs Elektra, Prob: 24.0%, Matches: 17, Winner: Elektra
+Round 5: Medusa vs Dracula, Prob: 60.0%, Matches: 55, Winner: Medusa
+Round 6: Elektra vs Medusa, Prob: 60.0%, Matches: 15, Winner: Elektra

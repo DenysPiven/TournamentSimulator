@@ -2,7 +2,27 @@ import pygame
 import pandas as pd
 import json
 import random
+import os
+import sys
 
+# === Tee class for logging ===
+class Tee:
+    def __init__(self, *files):
+        self.files = files
+    def write(self, data):
+        for f in self.files:
+            f.write(data)
+            f.flush()
+    def flush(self):
+        for f in self.files:
+            f.flush()
+
+# === Logging setup ===
+os.makedirs("log/main", exist_ok=True)
+log_file = open("log/main/summary.txt", "w", encoding="utf-8")
+sys.stdout = Tee(sys.__stdout__, log_file)
+
+# === Pygame setup ===
 MATCH_WIDTH = 180
 MATCH_HEIGHT = 60
 PADDING_Y = 20
@@ -15,13 +35,15 @@ pygame.display.set_caption("Unmatched Tournament Simulator")
 font = pygame.font.SysFont("Arial", 16)
 clock = pygame.time.Clock()
 
-with open("players.json") as f:
+# === Load data ===
+with open("assets/players.json") as f:
     players = json.load(f)
 
-matches_df = pd.read_csv("matches_count.csv", index_col=0)
-probs_df = pd.read_csv("probabilities.csv", index_col=0)
+matches_df = pd.read_csv("assets/matches_count.csv", index_col=0)
+probs_df = pd.read_csv("assets/probabilities.csv", index_col=0)
 id2name = {p['id']: p['name'] for p in players}
 
+# === Probability ===
 def get_match_probability(p1, p2):
     name1 = id2name[p1]
     name2 = id2name[p2]
@@ -29,13 +51,11 @@ def get_match_probability(p1, p2):
     if count < 5:
         return 50
     prob = probs_df.loc[name1, name2]
-    if prob == -2:
-        prob = 50
-    return 100 - prob
+    return 50 if prob == -2 else 100 - prob
 
+# === Pairing ===
 def generate_pairs(player_list):
-    pairs = []
-    next_round = []
+    pairs, next_round = [], []
     for i in range(0, len(player_list), 2):
         if i + 1 < len(player_list):
             pairs.append((player_list[i], player_list[i+1]))
@@ -43,6 +63,7 @@ def generate_pairs(player_list):
             next_round.append(player_list[i])
     return pairs, next_round
 
+# === Round simulation ===
 def simulate_round(current_players, round_num, start_match_id, logs):
     pairs, next_round = generate_pairs(current_players)
     round_matches = []
@@ -65,14 +86,12 @@ def simulate_round(current_players, round_num, start_match_id, logs):
         start_match_id += 1
     return round_matches, next_round, start_match_id
 
+# === Full tournament ===
 def run_tournament():
-    all_matches = []
-    rounds = []
-    logs = []
+    all_matches, rounds, logs = [], [], []
     random.shuffle(players)
     current_players = [p['id'] for p in players]
-    round_num = 1
-    match_id = 1
+    round_num, match_id = 1, 1
 
     while len(current_players) > 1:
         round_matches, current_players, match_id = simulate_round(current_players, round_num, match_id, logs)
@@ -91,6 +110,7 @@ def run_tournament():
             )
     return all_matches, match_coords, rounds, logs
 
+# === Match drawing ===
 def draw_match(m, offset_x, offset_y):
     x, y = match_coords[m['id']]
     x += offset_x
@@ -109,16 +129,16 @@ def draw_match(m, offset_x, offset_y):
     screen.blit(font.render(p1name, True, color_p1), (x + 5, y + 5))
     screen.blit(font.render(p2name, True, color_p2), (x + 5, y + 30))
 
+# === Main execution ===
 all_matches, match_coords, rounds, logs = run_tournament()
+for log in logs:
+    print(log)
 
 running = True
 scroll_x, scroll_y = 0, 0
 max_matches_in_round = max(len(r) for r in rounds)
 total_width = len(rounds) * (MATCH_WIDTH + 50) + 100
-total_height = (MATCH_HEIGHT + PADDING_Y) * (2 ** (len(rounds)-1)) + 100
-
-for log in logs:
-    print(log)
+total_height = (MATCH_HEIGHT + PADDING_Y) * (2 ** (len(rounds) - 1)) + 100
 
 while running:
     screen.fill((20, 20, 20))
